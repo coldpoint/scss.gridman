@@ -1,0 +1,39 @@
+//Brand Colors
+$color-brand-primary:   #BF4080     !default;
+$color-brand-secondary: #0D78BE     !default;
+
+//Light Theme Colors
+$color-accent-light:    #FFFFFF     !default;
+$color-body-light:      #F8F9FA     !default;
+$color-text-light:      #1D1E24     !default;
+$color-icons-light:     #65676B     !default;
+$color-input-light:     #E4E6EB     !default;
+
+//Dark Theme Colors
+$color-body-dark:       #18191A     !default;
+$color-accent-dark:     #242526     !default;
+$color-text-dark:       #E4E6EB     !default;
+$color-icons-dark:      #B0B3B8     !default;
+$color-input-dark:      #3A3B3C     !default;
+
+//Light Theme
+$theme-colors:(
+    "primary":      $color-brand-primary,
+    "secondary":    $color-brand-secondary,
+    "body":         $color-body-light,
+    "accent":       $color-accent-light,
+    "text":         $color-text-light,
+    "icons":        $color-icons-light,
+    "input":        $color-input-light,
+);
+
+//Dark Theme
+$theme-colors-dark:(
+    "primary":      $color-brand-primary,
+    "secondary":    $color-brand-secondary,
+    "body":         $color-body-dark,
+    "accent":       $color-accent-dark,
+    "text":         $color-text-dark,
+    "icons":        $color-icons-dark,
+    "input":        $color-input-dark
+);

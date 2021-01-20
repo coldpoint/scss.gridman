@@ -1,0 +1,11 @@
+//Imports color variables
+@import 'variables';
+
+@mixin bLight{
+    :root {
+        @each $name, $color in $theme-colors{
+            --color-#{$name} : #{$color}
+        }
+        --theme: "light"
+    }
+}

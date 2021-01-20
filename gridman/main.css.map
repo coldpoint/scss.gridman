@@ -1,0 +1,18 @@
+{
+    "version": 3,
+    "mappings": "AOII,AAAA,KAAK,CAAC;EAEE,eAAgB,CAAS;QAAC;EAA1B,iBAAgB,CAAS;QAAC;EAA1B,YAAgB,CAAS;QAAC;EAA1B,cAAgB,CAAS;QAAC;EAA1B,YAAgB,CAAS;QAAC;EAA1B,aAAgB,CAAS;QAAC;EAA1B,aAAgB,CAAS;QAAC;EAE9B,OAAO,CAAA;IAAC;CACX;;AETL,AAAA,IAAI,CAAA;EACA,OAAO,EAAK,CAAC;EACb,MAAM,EAAM,CAAC;CAChB",
+    "sources": [
+        "main.scss",
+        "_color.scss",
+        "color/_settings.scss",
+        "color/_dynamic.scss",
+        "color/_variables.scss",
+        "color/_dark.scss",
+        "color/_variables.scss",
+        "color/_light.scss",
+        "color/_variables.scss",
+        "_grid.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

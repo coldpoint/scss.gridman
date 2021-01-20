@@ -1,0 +1,24 @@
+:root {
+  --color-primary: #BF4080
+        ;
+  --color-secondary: #0D78BE
+        ;
+  --color-body: #F8F9FA
+        ;
+  --color-accent: #FFFFFF
+        ;
+  --color-text: #1D1E24
+        ;
+  --color-icons: #65676B
+        ;
+  --color-input: #E4E6EB
+        ;
+  --theme: "light"
+    ;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+/*# sourceMappingURL=main.css.map */

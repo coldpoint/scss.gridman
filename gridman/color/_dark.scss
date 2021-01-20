@@ -1,0 +1,11 @@
+//Imports color variables
+@import 'variables';
+
+@mixin bDark{
+    :root {
+        @each $name, $color in $theme-colors-dark{
+            --color-#{$name} : #{$color}
+        }
+        --theme: "dark"
+    }
+}

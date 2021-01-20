@@ -1,0 +1,15 @@
+@import 'color/settings';
+
+@if $bDynamicTheme{
+    @include bDynamic;
+}
+@else if $bDarkTheme{
+    @include bDark;
+}
+@else{
+    @include bLight;
+}
+
+@function color($color-name) {
+    @return var(--color-#{$color-name});
+}
